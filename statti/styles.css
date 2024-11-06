@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 0.625rem 0; 
+    text-align: center;
+}
+
+article {
+    margin: 1.25rem; 
+    padding: 1.25rem; 
+    background: #fff;
+    border-radius: 0.3125rem; 
+    box-shadow: 0 0 0.625rem rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    padding: 0.625rem 0; 
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,18 @@
+.nav-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.nav-list a {
+    margin-right: 1rem;
+    color: black;
+    transition: color 0.3s ease;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav-list a:hover {
+    color:darkgray;
+}
+.active {
+    border-bottom: 2px solid darkblue;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registration.css">
+    <title>Реєстрація</title>
+</head>
+<body>
+    <header id="header"></header>
+    <main>
+        <h1>Реєстрація на сайті</h1>
+        <form id="registrationForm">
+            <label for="surname">Прізвище:</label>
+            <input type="text" id="surname" name="surname" required>
+
+            <label for="name">Ім’я:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Адреса електронної пошти:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Пароль:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="website">Адреса вашого сайту:</label>
+            <input type="url" id="website" name="website" value="http://" required>
+
+            <label for="gender">Виберіть стать:</label>
+            <select id="gender" name="gender" required>
+                <option value="male">Чоловік</option>
+                <option value="female">Жінка</option>
+                <option value="other">Інше</option>
+            </select>
+
+            <label for="dob">Дата народження:</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <fieldset>
+                <legend>Які жанри книг ви переважно читаєте?</legend>
+                <label><input type="checkbox" name="genre" value="fiction"> Художня література</label>
+                <label><input type="checkbox" name="genre" value="non-fiction"> Нехудожня література</label>
+                <label><input type="checkbox" name="genre" value="fantasy"> Фантастика</label>
+                <label><input type="checkbox" name="genre" value="mystery"> Містика</label>
+                <label><input type="checkbox" name="genre" value="romance"> Романтика</label>
+                <label><input type="checkbox" name="genre" value="biography"> Біографії</label>
+            </fieldset>
+
+            <label for="about">Про себе:</label>
+            <textarea id="about" name="about" rows="4" required></textarea>
+
+            <button type="submit">Зареєструватися</button>
+            <button type="reset">Очистити форму</button>
+        </form>
+    </main>
+    <div id="footer"></div>
+    <script src="../header/loadHeader.js"></script>
+    <script src="../footer/footer.js"></script>
+    <script src="registration.js"></script>
+</body>
+</html>

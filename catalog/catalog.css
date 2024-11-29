@@ -34,6 +34,9 @@ ul li ul li:before {
     outline: none;
     padding: 1rem;
 }
+main {
+    margin-top: 7rem
+}
 .book-catalog-wrapper{
     display: flex;
     justify-content: center;
